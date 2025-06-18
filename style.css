@@ -1,0 +1,124 @@
+/* Genel gövde ayarları */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Konteyner stil ayarları */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Başlık stili */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Ana giriş alanı */
+.main {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+
+/* Giriş kutusu */
+#text {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Ekle butonu */
+#btn-ekle {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+#btn-ekle:hover {
+    background-color: #218838;
+}
+
+/* Liste stili */
+#list {
+    list-style: none;
+    padding: 0;
+
+}
+
+
+/* Liste öğeleri */
+#list li {
+    background-color: #f9f9f9;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: background-color 0.2s;
+  
+}
+
+/* Görev metni */
+#list li span {
+    flex: 1;
+}
+
+/* Butonlar */
+button {
+    margin-left: 10px;
+    padding: 6px 12px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s;
+}
+
+/* Tamamlandı butonu */
+button.tamam {
+    background-color: #007bff;
+    color: #fff;
+}
+
+button.tamam:hover {
+    background-color: #0069d9;
+}
+
+/* Sil butonu */
+button.sil {
+    background-color: #dc3545;
+    color: #fff;
+}
+
+button.sil:hover {
+    background-color: #c82333;
+}
+
+/* Tamamlandı olarak işaretlenmiş görev */
+li.tamamlandi {
+    text-decoration: line-through;
+    opacity: 0.6;
+}
+
+
+
+
+
+
